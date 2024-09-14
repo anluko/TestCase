@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDF8D65F-720E-45A9-A989-FA901E8B77DB}|TestProject\\TestProject.csproj|d:\\visual studio projects\\testcaseproject\\testproject\\testproject\\testproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DDF8D65F-720E-45A9-A989-FA901E8B77DB}|TestProject\\TestProject.csproj|solutionrelative:testproject\\testproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDF8D65F-720E-45A9-A989-FA901E8B77DB}|TestProject\\TestProject.csproj|d:\\visual studio projects\\testcaseproject\\testproject\\testproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDF8D65F-720E-45A9-A989-FA901E8B77DB}|TestProject\\TestProject.csproj|solutionrelative:testproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,6 +59,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TestProject",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\TestProject.csproj",
+              "RelativeDocumentMoniker": "TestProject\\TestProject.csproj",
+              "ToolTip": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\TestProject.csproj",
+              "RelativeToolTip": "TestProject\\TestProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T17:13:11.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TestProject\\Models\\AppDbContext.cs",
@@ -67,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StatsPage.xaml.cs",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Pages\\StatsPage.xaml.cs",
               "RelativeDocumentMoniker": "TestProject\\Pages\\StatsPage.xaml.cs",
@@ -79,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmployeesWindow.xaml.cs",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Windows\\EmployeesWindow.xaml.cs",
               "RelativeDocumentMoniker": "TestProject\\Windows\\EmployeesWindow.xaml.cs",
@@ -91,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EmployeesPage.xaml",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Pages\\EmployeesPage.xaml",
               "RelativeDocumentMoniker": "TestProject\\Pages\\EmployeesPage.xaml",
@@ -102,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EmployeesWindow.xaml",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Windows\\EmployeesWindow.xaml",
               "RelativeDocumentMoniker": "TestProject\\Windows\\EmployeesWindow.xaml",
@@ -113,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NewEmployeePage.xaml.cs",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Pages\\NewEmployeePage.xaml.cs",
               "RelativeDocumentMoniker": "TestProject\\Pages\\NewEmployeePage.xaml.cs",
@@ -121,12 +137,11 @@
               "RelativeToolTip": "TestProject\\Pages\\NewEmployeePage.xaml.cs",
               "ViewState": "AQIAAMQAAAAAAAAAAAAIwOUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T10:23:08.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T10:23:08.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EmployeesPage.xaml.cs",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Pages\\EmployeesPage.xaml.cs",
               "RelativeDocumentMoniker": "TestProject\\Pages\\EmployeesPage.xaml.cs",
@@ -138,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StatsPage.xaml",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Pages\\StatsPage.xaml",
               "RelativeDocumentMoniker": "TestProject\\Pages\\StatsPage.xaml",
@@ -149,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "NewEmployeePage.xaml",
               "DocumentMoniker": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\Pages\\NewEmployeePage.xaml",
               "RelativeDocumentMoniker": "TestProject\\Pages\\NewEmployeePage.xaml",
