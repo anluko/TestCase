@@ -1,0 +1,92 @@
+﻿<Page x:Class="TestProject.Pages.NewEmployeePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TestProject.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="NewEmployeePage">
+
+    <Grid>
+        <StackPanel 
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Orientation="Vertical">
+
+            <TextBox 
+                x:Name="TabNumberTb"
+                Style="{DynamicResource MaterialDesignFloatingHintTextBox}"
+                materialDesign:HintAssist.Hint="Введите табельный номер.."
+                FontSize="16"
+                Padding="15 0"
+                Width="350"
+                Height="40"
+                TextChanged="TabNumberTb_TextChanged"
+                PreviewTextInput="TabNumberTb_PreviewTextInput"/>
+
+            <TextBox 
+                x:Name = "FullNameTb"
+                Style = "{DynamicResource MaterialDesignFloatingHintTextBox}"
+                materialDesign:HintAssist.Hint = "Введите ФИО.."
+                ToolTip="Формат ввода: Фамилия Имя Отчество"
+                FontSize="16"
+                Padding = "15 0"
+                Margin="0 20 0 0"
+                Width = "350"
+                Height = "40"
+                TextChanged = "FullNameTb_TextChanged"/>
+
+            <TextBox 
+                x:Name = "EmailTb"
+                Style = "{DynamicResource MaterialDesignFloatingHintTextBox}"
+                materialDesign:HintAssist.Hint = "Введите почту.."
+                ToolTip="Формат ввода: email@gmail.com"
+                FontSize="16"
+                Padding = "15 0"
+                Margin="0 20 0 0"
+                Width = "350"
+                Height = "40"
+                TextChanged = "EmailTb_TextChanged"/>
+
+            <TextBox 
+                x:Name = "PhoneTb"
+                Style = "{DynamicResource MaterialDesignFloatingHintTextBox}"
+                materialDesign:HintAssist.Hint = "Введите телефон.."
+                FontSize="16"
+                Padding = "15 0"
+                Margin="0 20 0 0"
+                Width = "350"
+                Height = "40"
+                PreviewTextInput="PhoneTb_PreviewTextInput"
+                TextChanged = "PhoneTb_TextChanged"
+                PreviewKeyDown = "PhoneTb_PreviewKeyDown"/>
+
+            <ComboBox 
+                x:Name="PositionCb"
+                Style = "{DynamicResource MaterialDesignFloatingHintComboBox}"
+                materialDesign:HintAssist.Hint="Выберите должность"
+                materialDesign:HintAssist.FloatingHintHorizontalAlignment="Left"
+                materialDesign:HintAssist.IsFloating="True"
+                Padding = "15 0"
+                Margin="0 20 0 0"
+                Width = "350"
+                Height = "40"
+                SelectionChanged = "PositionCb_SelectionChanged" />
+
+            <Button 
+                x:Name="AddEmployeeBtn"
+                Style="{DynamicResource MaterialDesignRaisedLightButton}"
+                materialDesign:ButtonAssist.CornerRadius="15"
+                Content="Принять сотрудника"
+                Foreground="White"
+                Grid.Row="2"
+                Margin="0 30"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                Click = "AddEmployeeBtn_Click" />
+
+        </StackPanel>
+    </Grid>
+</Page>
