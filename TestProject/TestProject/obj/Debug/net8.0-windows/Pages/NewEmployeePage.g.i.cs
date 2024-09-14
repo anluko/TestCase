@@ -104,7 +104,7 @@ namespace TestProject.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TestProject;component/pages/newemployeepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TestProject;V1.0.0.0;component/pages/newemployeepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\NewEmployeePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

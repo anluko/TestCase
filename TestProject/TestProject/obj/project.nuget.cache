@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+lBbOBN7moc=",
+  "dgSpecHash": "b5z5+xlsBSU=",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio Projects\\TestProject\\TestProject\\TestProject.csproj",
+  "projectFilePath": "D:\\Visual Studio Projects\\TestCaseProject\\TestProject\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zulfa\\.nuget\\packages\\epplus\\7.3.1\\epplus.7.3.1.nupkg.sha512",
     "C:\\Users\\zulfa\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",

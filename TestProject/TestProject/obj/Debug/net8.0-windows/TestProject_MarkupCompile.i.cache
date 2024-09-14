@@ -1,0 +1,20 @@
+﻿TestProject
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Visual Studio Projects\TestCaseProject\TestProject\TestProject\obj\Debug\net8.0-windows\
+TestProject
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\Visual Studio Projects\TestCaseProject\TestProject\TestProject\App.xaml
+4-2146555928
+
+24-1633327329
+226-319555148
+Pages\EmployeesPage.xaml;Pages\NewEmployeePage.xaml;Pages\StatsPage.xaml;Windows\EmployeesWindow.xaml;
+
+True
+
